@@ -1,6 +1,6 @@
 # Lb20180703
 
-##Info
+## Info
 
 This project is meant to to see if sending data via console.log to application insights is possible without separate logger class etc.
 
