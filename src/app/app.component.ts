@@ -10,6 +10,9 @@ export class AppComponent {
   title = 'lb20180703';
 
   constructor(s: ConsoleService) {
-
+    console.log('wtf');
+    console.info('wtf');
+    console.error('wtf');
+    console.warn('wtf');
   }
 }

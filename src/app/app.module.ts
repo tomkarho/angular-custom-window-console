@@ -15,8 +15,8 @@ import { RouterModule } from '@angular/router';
   imports: [
     BrowserModule,
     RouterModule.forRoot([
-      {path: 'test1', component: Page1Component},
-      {path: 'test2', component: Page2Component},
+      {path: 'page1', component: Page1Component},
+      {path: 'page2', component: Page2Component},
     ])
   ],
   providers: [],
