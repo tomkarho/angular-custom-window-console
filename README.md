@@ -1,5 +1,9 @@
 # Lb20180703
 
+##Info
+
+This project is meant to to see if sending data via console.log to application insights is possible without separate logger class etc.
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.1.1.
 
 ## Development server
