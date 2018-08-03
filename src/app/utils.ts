@@ -6,7 +6,6 @@ export class Utils {
    * @param o2 object to copy from
    */
   static appendObjects(o1, o2): any {
-    console.log('appending two objects', o1, o2);
     const appended = o1;
 
     for (const i of Object.keys(o2)) {

@@ -1,5 +1,6 @@
 import { Injectable } from '@angular/core';
 import { Utils } from './utils';
+import { AppInsightsService } from '@markpieszak/ng-application-insights';
 
 declare global {
   interface Window {
@@ -12,7 +13,7 @@ declare global {
 })
 export class ConsoleService {
 
-  constructor() {
+  constructor(ai: AppInsightsService) {
     console.log('ConsoleService constructor');
     const origConsole = window.console;
 
@@ -34,7 +35,7 @@ export class ConsoleService {
         this.aiLog(args);
       },
       aiLog: function (args) {
-        // Todo: send to application insights
+        ai.trackEvent('TEST EVENT', args);
       }
     };
 
